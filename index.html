@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+
+            <legend>Cadastro de Usuário</legend>
+
+            <label for="email">Email:</label>
+            <input id="email" type="email" placeholder="mail@email.com" name="email" required>
+            <br><br>
+
+            <label for="senha">Senha:</label>
+            <input id="senha" type="password" name="senha" required>
+
+            <br>   
+            <br>
+            <label>Cor do perfil</label>
+            <input type="color">
+            <section>
+                <p>Selecione a turma:</p>
+                <div>
+                    <input type="radio" name="turma" value="t18">
+                    <label>T18</label>
+                </div>
+                <div>
+                    <input type="radio" name="turma" value="t19">
+                    <label>T19</label>
+                </div>
+                <div>
+                    <input type="radio" name="turma"
+                    value="t20">
+                    <label>T20</label>
+                </div>
+            </section>
+
+            <br>
+
+            <label for="intrutor">Instrutor(a)</label>
+            <select id="intrutor" name="Instrutor">
+                <option disabled selected>Selecione seu Instrutor</option>
+                <option value="alex">Alex</option>
+                <option value="lore">Lorena</option>
+                <option value="Thiago">Thiago</option>
+                <option value="vilson">Vilson</option>
+
+            </select>
+            <br><br>
+
+            <div>
+                <label for="">Descrição</label> <br>
+                <textarea placeholder="Descreva aqui uma breve descrição" maxlength="100" cols="25" rows="4" name="descricao"></textarea>
+            </div>
+
+            <!--<input type="submit" value="Enviar informações"> -->
+
+            <button> Clique aqui</button>
+
+        </fieldset>
+        <br>
+        <fieldset>
+            
+            <legend>Endereço</legend>
+            <div>
+            <Label for="cep">Cep:</Label>
+            <Input id="cep" type="text" name="cep" placeholder="00.000-000" required ></Input>
+            </div>
+            <br>
+
+            <div>
+            <Label for="rua">Rua:</Label>
+            <Input id="rua" type="text" name="rua" placeholder="Av. Castelo Branco" required></Input>
+            </div>
+            <br>
+            <div>
+            <Label for="numero">Número:</Label>
+            <Input id="numero" type="text" name="numero" placeholder="Nº 00" required></Input>
+            </div>
+            <br>
+            <div>
+            <Label for="bairro">Bairro:</Label>
+            <Input id="bairro" type="text" name="bairro" placeholder="Centro" required></Input>
+            </div>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
